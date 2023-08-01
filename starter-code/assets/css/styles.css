@@ -269,7 +269,7 @@ h1, h2, h3, .cost{
   align-items: center;
   font-weight: 700;
 }
-.dropdown-placeholder__name {
+.dropdown-placeholder_name {
   color: var(--font-prima-1);
   margin-right: 8px;
 }
@@ -284,25 +284,25 @@ h1, h2, h3, .cost{
   border-radius: 8px;
   padding: 8px 39px 8px 32px;
 }
-.dropdown-structure__input {
+.dropdown-structure_input {
   display: flex;
   flex-direction: row;
   align-items: center;
   padding: 16px 0;
   font-weight: 700;
 }
-.dropdown-structure__input:not(:last-child) {
+.dropdown-structure_input:not(:last-child) {
   border-bottom: var(--border) 1px solid;
 }
-.dropdown-structure__input:hover {
+.dropdown-structure_input:hover {
   cursor: pointer;
 }
-.dropdown-structure__input--selected {
+.dropdown-structure_input-selected {
   background-image: url("./../../assets/sign-up/icon-check.svg");
   background-repeat: no-repeat;
   background-position: center right;
 }
-.dropdown-structure__name {
+.dropdown-structure_name {
   color: var(--font-prima-1);
   margin-right: 8px;
 }
@@ -828,7 +828,7 @@ h1, h2, h3, .cost{
   }
 }
 
-/* .br::after {
+.br::after {
   content: "\a";
   white-space: pre;
 }
@@ -843,4 +843,4 @@ h1, h2, h3, .cost{
 
 .b {
   font-weight: 700;
-} */
+}
