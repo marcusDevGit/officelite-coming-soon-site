@@ -226,8 +226,8 @@ h1, h2, h3, .cost{
   border: none;
   border-bottom: var(--border) 1px solid;
 }
-.input--error,
-.select--error {
+.input-error,
+.select-error {
   color: var(--font-error);
   border-bottom-color: var(--font-error);
   background-image: url("./../../assets/sign-up/icon-cross.svg");
@@ -351,12 +351,12 @@ h1, h2, h3, .cost{
 }
 
 @media (min-width: 640px) {
-  .header--signup.header .header_bg {
+  .header-signup.header .header_bg {
     display: none;
   }
 }
 @media (min-width: 1440px) {
-  .header--signup.header {
+  .header-signup.header {
     margin-bottom: 154px;
   }
 }
@@ -380,20 +380,20 @@ h1, h2, h3, .cost{
   }
 }
 
-.container.container--signup {
+.container.container-signup {
   padding-bottom: 87px;
 }
 @media (min-width: 640px) {
-  .container.container--signup {
+  .container.container-signup {
     padding-bottom: 126px;
   }
 }
 @media (min-width: 1440px) {
-  .container.container--signup {
+  .container.container-signup {
     padding-bottom: 279px;
     height: 1024px;
   }
-  .container.container--signup .signup-container {
+  .container.container-signup .signup-container {
     display: flex;
     justify-content: space-between;
   }
@@ -652,43 +652,43 @@ h1, h2, h3, .cost{
   }
 }
 
-.countdown--signup {
+.countdown-signup {
   margin-bottom: 64px;
 }
-.countdown--signup .countdown_title {
+.countdown-signup .countdown_title {
   color: var(--font-prima-1);
 }
-.countdown--signup .countdown_container {
+.countdown-signup .countdown_container {
   margin-bottom: 0;
 }
-.countdown--signup .countdown_card {
+.countdown-signup .countdown_card {
   background-color: var(--bg-countdown--alt);
 }
-.countdown--signup .countdown_number {
+.countdown-signup .countdown_number {
   color: var(--font-highlight);
 }
-.countdown--signup .countdown_date {
+.countdown-signup .countdown_date {
   color: var(--font-prima-1);
 }
 @media (min-width: 640px) {
-  .countdown--signup {
+  .countdown-signup {
     margin-bottom: 104px;
   }
 }
 @media (min-width: 1024px) {
-  .countdown--signup {
+  .countdown-signup {
     flex-direction: column;
   }
-  .countdown--signup .countdown_title {
+  .countdown-signup .countdown_title {
     text-align: center;
   }
 }
 @media (min-width: 1440px) {
-  .countdown--signup {
+  .countdown-signup {
     margin-bottom: 0;
     flex-direction: row;
   }
-  .countdown--signup .countdown_title {
+  .countdown-signup .countdown_title {
     text-align: left;
   }
 }
@@ -757,7 +757,7 @@ h1, h2, h3, .cost{
   }
 }
 
-/* .form {
+.form {
   display: flex;
   flex-flow: column nowrap;
   gap: 24px;
@@ -784,7 +784,7 @@ h1, h2, h3, .cost{
   }
 }
 
-.pattern-side {
+.pattern_side {
   background-color: var(--bg-main-sec);
   width: 100vw;
   height: 320px;
@@ -794,7 +794,7 @@ h1, h2, h3, .cost{
   z-index: -1;
   overflow: hidden;
 }
-.pattern-side_img {
+.pattern_side_img {
   position: absolute;
   max-width: unset;
   width: 1202px;
@@ -803,10 +803,10 @@ h1, h2, h3, .cost{
   left: calc((1202px - 100vw) / -2);
 }
 @media (min-width: 640px) {
-  .pattern-side {
+  .pattern_side {
     height: 380px;
   }
-  .pattern-side_img {
+  .pattern_side_img {
     width: 1454px;
     height: 1454px;
     top: -537px;
@@ -814,13 +814,13 @@ h1, h2, h3, .cost{
   }
 }
 @media (min-width: 1440px) {
-  .pattern-side {
+  .pattern_side {
     height: 100%;
     width: 50vw;
     top: 0;
     left: calc(100% - 295px);
   }
-  .pattern-side_img {
+  .pattern_side_img {
     width: 2036px;
     height: 2036px;
     top: -781px;
@@ -828,7 +828,7 @@ h1, h2, h3, .cost{
   }
 }
 
-.br::after {
+/* .br::after {
   content: "\a";
   white-space: pre;
 }
