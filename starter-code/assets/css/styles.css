@@ -391,9 +391,9 @@ h1, h2, h3, .cost{
 @media (min-width: 1440px) {
   .container.container-signup {
     padding-bottom: 279px;
-    height: 1024px;
+    height: 1250px;
   }
-  .container.container-signup .signup-container {
+  .container.container-signup .signup_container {
     display: flex;
     justify-content: space-between;
   }
@@ -476,6 +476,9 @@ h1, h2, h3, .cost{
 }
 .plans_price {
   margin-bottom: 8px;
+  font-size: 56px;
+  line-height: 64px;
+  /* 114.286% */
 }
 .plans_description {
   color: var(--font-prima-1);
@@ -751,7 +754,7 @@ h1, h2, h3, .cost{
   }
 }
 @media (min-width: 1440px) {
-  .sign-content {
+  .sign_content {
     max-width: 540px;
     text-align: left;
   }

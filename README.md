@@ -1,7 +1,7 @@
 
 # Mentor de frontend - OfficElite em breve solução do site
 
-Esta é uma solução para o [OfficElite que vem em breve Challenge no Frontend Mentor] (https://www.frontendmentor.io/challenges/officelite-coming-soon-site-m4dipnz8g). Os desafios do mentor do front -end ajudam a melhorar suas habilidades de codificação, construindo projetos realistas.
+Esta é uma solução para o [OfficElite que vem em breve Challenge no Frontend Mentor](https://www.frontendmentor.io/challenges/officelite-coming-soon-site-m4dipnz8g). Os desafios do mentor do front -end ajudam a melhorar suas habilidades de codificação, construindo projetos realistas.
 
 
 ## Table of contents
@@ -32,12 +32,52 @@ Os usuários devem poder:
 
 ### Screenshots
 
+<details>
+<summary>Desktop - Home</summary>
+
+![Desktop - Home](./starter-code/assets/screenShot/desk_inicial.png)
+
+</details>
+
+<details>
+<summary>Desktop - Sign-up</summary>
+
+![Desktop - Sign-up](./starter-code/assets/screenShot/desk_signup.jpeg)
+
+</details>
+
+<details>
+<summary>Tablet - Home</summary>
+
+![Tablet - Home](./starter-code/assets/screenShot/mobile_inicial.jpeg)
+
+</details>
+
+<details>
+<summary>Tablet - Sign-up</summary>
+
+![Tablet - Sign-up](./starter-code/assets/screenShot/mobile_signup.jpeg)
+
+</details>
+
+<details>
+<summary>Mobile - Home</summary>
+
+![Mobile - Home](./starter-code/assets/screenShot/mobile_inicial.jpeg)
+
+</details>
+
+<details>
+<summary>Mobile - Sign-up</summary>
+
+![Mobile - Sign-up](./starter-code/assets/screenShot/mobile_signup.jpeg)
+
+</details>
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Visite o Site](https://marcusdevgit.github.io/officelite-coming-soon-site/)
 
 ## My Process
 
